@@ -1,0 +1,14 @@
+# Мой workflow в рамках изучения php практика №1 проект php-project-lvl1
+name: my-check
+# Включается на push
+on: push
+
+jobs:
+  check:
+    # Запускается на:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run linter
+        # Запускаем линтер
+        run: make lint
