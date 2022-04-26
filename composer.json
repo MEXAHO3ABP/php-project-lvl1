@@ -1,14 +1,19 @@
 {
     "name": "hexlet/code",
+    "description": "learning php on hexlet: first project",
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"
         }
     },
+    "license": "proprietary",
     "authors": [
         {
             "name": "MEXAHO3ABP"
         }
     ],
-    "require": {}
+    "require": {},
+    "bin": [
+        "bin/brain-games"
+    ]
 }
