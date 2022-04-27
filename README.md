@@ -25,3 +25,7 @@ https://github.com/MEXAHO3ABP/php-project-lvl1
 ### Asciinema для brain-gcd
 
 [Ссылка для просмотра](https://asciinema.org/a/QHz9vb2ZVtW37pShLAq3yvN9a)
+
+### Asciinema для brain-progression
+
+[Ссылка для просмотра](https://asciinema.org/a/8FANZ0sRDTfh7BjO8PjlNRq2L)

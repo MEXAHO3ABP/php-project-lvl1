@@ -1,0 +1,35 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use function Hexlet\Code\Engine\engineGames;
+
+$questions = [];
+
+for ($i = 1; $i <= 3; $i++) {
+    $startNum = random_int(1, 9);
+    $increment = random_int(1, 5);
+    $countProgression = random_int(5, 10);
+    $questionNum = random_int(4, $countProgression);
+
+    $progression = [];
+
+    for ($j = 1; $j <= $countProgression; $j++) {
+        if ($j === 1) {
+            $buferNum = $startNum;
+        } elseif ($j === 2) {
+            $buferNum = $startNum + $increment;
+        } else {
+            $buferNum += $increment;
+        }
+        $progression[] = $buferNum;   
+    }
+
+    $correctResult = $progression[$questionNum - 1];
+    $progression[$questionNum - 1] = '..';
+
+    $questions[] = [implode(' ', $progression), (string) $correctResult];
+}
+
+engineGames('What number is missing in the progression?', $questions);
