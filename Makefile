@@ -1,8 +1,10 @@
 #Makefile
 install: #Установка composer
 	composer install
-brain-games: #Вызов brain-games.php
+brain-games: #Запуск brain-games
 	./bin/brain-games
+brain-even: #Запуск brain-even
+	./bin/brain-even
 validate: #Проверка валидности composer.json
 	composer validate
 lint: #Запуск линтера PHP_Codesniffer по стандарту PSR12

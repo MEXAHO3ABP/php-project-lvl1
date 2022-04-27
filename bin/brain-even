@@ -3,6 +3,6 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use function Hexlet\Code\Cli\helloUser;
+use function Hexlet\Code\Brain\Even\gameBrainEven;
 
-helloUser();
+gameBrainEven ();
