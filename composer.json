@@ -8,7 +8,8 @@
         "files": [
             "src/Cli.php",
             "src/brain-even.php",
-            "src/engine.php"
+            "src/engine.php",
+            "src/dop-functions.php"
         ]
     },
     "license": "proprietary",
@@ -23,7 +24,8 @@
     "bin": [
         "bin/brain-games",
         "bin/brain-even",
-        "bin/brain-calc"
+        "bin/brain-calc",
+        "bin/brain-gcd"
     ],
     "require-dev": {
         "squizlabs/php_codesniffer": "3.*"

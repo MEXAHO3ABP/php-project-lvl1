@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use function Hexlet\Code\Engine\engineGames;
+use function Hexlet\Code\Dop\Functions\nod;
+
+$questions = [];
+
+for ($i = 1; $i <= 3; $i++) {
+    $firstNum = random_int(1, 30);
+    $secondNum = random_int(1, 30);
+    $correctResult = nod($firstNum, $secondNum);
+    $question = $firstNum.' '.$secondNum;
+    
+    $questions[] = [(string) $question, (string) $correctResult];
+}
+
+engineGames('Find the greatest common divisor of given numbers.', $questions);

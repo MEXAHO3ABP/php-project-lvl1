@@ -7,6 +7,8 @@ brain-even: #Запуск brain-even
 	./bin/brain-even
 brain-calc: #Запуск brain-calc
 	./bin/brain-calc
+brain-gcd: #Запуск brain-gcd
+	./bin/brain-gcd
 validate: #Проверка валидности composer.json
 	composer validate
 lint: #Запуск линтера PHP_Codesniffer по стандарту PSR12
