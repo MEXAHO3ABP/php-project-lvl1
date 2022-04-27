@@ -11,6 +11,8 @@ brain-gcd: #Запуск brain-gcd
 	./bin/brain-gcd
 brain-progression: #Запуск brain-progression
 	./bin/brain-progression
+brain-prime: #Запуск brain-prime
+	./bin/brain-prime
 validate: #Проверка валидности composer.json
 	composer validate
 lint: #Запуск линтера PHP_Codesniffer по стандарту PSR12

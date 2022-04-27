@@ -1,0 +1,31 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use function Hexlet\Code\Engine\engineGames;
+
+$questions = [];
+
+for ($i = 1; $i <= 3; $i++) {
+    $num = random_int(1, 100);
+    $correctResult = 'no';
+    if ($num === 1) {
+        $correctResult = 'no';
+    } elseif ($num === 2 || $num === 3) {
+        $correctResult = 'yes';
+    } else {
+        $correctResult = '';
+        for ($j = 2; $j <= $num/2; $j++) {
+            if ($num % $j === 0) {
+                $correctResult = 'no';
+            } elseif ($correctResult === '') {
+                $correctResult = 'yes';
+            }
+        }        
+    }
+
+    $questions[] = [(string) $num, $correctResult];
+}
+
+engineGames('Answer "yes" if given number is prime. Otherwise answer "no".', $questions);
