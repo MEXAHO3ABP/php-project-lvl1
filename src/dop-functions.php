@@ -2,15 +2,15 @@
 
 namespace Hexlet\Code\Dop\Functions;
 
-function nod($a, $b)
+function nod($num1, $num2)
 {
-    while ($a != $b) {
-        if ($a > $b) {
-            $a = $a - $b;
+    while ($num1 != $num2) {
+        if ($num1 > $num2) {
+            $num1 = $num1 - $num2;
         } else {
-            $b = $b - $a;
+            $num2 = $num2 - $num1;
         }
     }
 
-    return $b;
+    return $num2;
 }
