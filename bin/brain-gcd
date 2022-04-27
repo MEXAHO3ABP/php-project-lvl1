@@ -3,7 +3,7 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use function Hexlet\Code\Engine\engineGames;
+use function Hexlet\Code\Games\Engine\engineGames;
 use function Hexlet\Code\Dop\Functions\nod;
 
 $questions = [];

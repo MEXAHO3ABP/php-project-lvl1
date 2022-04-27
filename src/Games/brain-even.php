@@ -1,6 +1,6 @@
 <?php
 
-namespace Hexlet\Code\Brain\Even;
+namespace Hexlet\Code\Games\Brain\Even;
 
 use function cli\line;
 use function cli\prompt;

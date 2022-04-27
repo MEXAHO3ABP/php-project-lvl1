@@ -1,6 +1,6 @@
 <?php
 
-namespace Hexlet\Code\Engine;
+namespace Hexlet\Code\Games\Engine;
 
 use function cli\line;
 use function cli\prompt;
