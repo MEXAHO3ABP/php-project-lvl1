@@ -17,3 +17,7 @@ https://github.com/MEXAHO3ABP/php-project-lvl1
 ### Asciinema для brain-even
 
 [Ссылка для просмотра](https://asciinema.org/a/Pwh74dTTRPhxpfmHlBedwTivq)
+
+### Asciinema для brain-calc
+
+[Ссылка для просмотра](https://asciinema.org/a/izhzJInQJzdKKJJsU9bwjEc6E)
