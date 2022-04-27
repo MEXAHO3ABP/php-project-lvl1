@@ -7,8 +7,8 @@
         },
         "files": [
             "src/Cli.php",
-            "src/brain-even.php",
-            "src/engine.php",
+            "src/Games/brain-even.php",
+            "src/Games/engine.php",
             "src/dop-functions.php"
         ]
     },
